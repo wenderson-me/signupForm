@@ -1,0 +1,88 @@
+/* geral */
+
+body {
+    background-color: hsl(0, 100%, 74%) !important;
+    margin: 0 auto;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* main body */
+
+.colourContainer {
+    font-family: "Poppins", sans-serif;
+    height: 100%;
+}
+
+.row {
+    position: relative;
+    top: 100px;
+}
+
+.col {
+    text-align: center;
+    padding: 30px;
+}
+
+/* Text section */
+
+#textSection {
+    color:white;
+    margin: 12% 0 0 5%;
+    text-align: left;
+}
+
+#textSection h1 {
+    font-size: 3em;
+}
+
+#textSection p {
+    font-size: 0.8em;
+    margin: 20px;
+}
+
+#textSection h1, #textSection p {
+    max-width: 80%;
+}
+
+/* FORM */
+
+#ctaButton {
+    transition: 0.2s;
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #5d54a3;
+    color: white;
+    border: none;
+    -webkit-box-shadow: 7px 7px 7px 0px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 7px 7px 7px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 7px 7px 7px 5px rgba(0, 0, 0, 0.3);
+}
+
+#ctaButton:hover {
+transform: scale(1.04);
+background-color: white; 
+}
+
+#formBox {
+    margin-top: 20px;
+    background-color: white; 
+    padding: 30px;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+input[type="text"], input[type="password"], select {
+    width: 100%; 
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: 600;
+    font-size: 0.9em; 
+}
